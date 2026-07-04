@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana;
+}
+div img{
+  width: 105%;
+  height: 50px;
+}
+#main img{
+  margin-top: 10px;
+}
+#email{
+  width: 90%;
+  height: 42px;
+  margin-left: 20px;
+  outline: none;
+  background-color: #F0F0F0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border-top-style: 10px;
+  padding-left: 10px; 
+}
+#email:hover{
+    border: 1px solid black;
+}
+#password{
+  width: 90%;
+  height: 42px;
+  margin-left: 20px;
+  outline: none;
+  background-color: #F0F0F0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border-top-style: 10px;
+  padding-left: 10px; 
+  margin-top: 10px;
+}
+#password:hover{
+    border: 1px solid black;
+}
+button{
+  width: 90%;
+  height: 40px;
+  margin-left: 20px;
+  font-weight: bold;
+  background-color: #007BFF;
+  color: white;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+}
+.last #forg{
+  color: #0073EF;
+  margin-left: 140px;
+  margin-top: 15px;
+  font-size: 13px;
+}
+a{
+  text-decoration: none;
+}
+
+#first {
+  height: 0.5px;
+  background-color: gray;
+  width: 40%;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+#sec{
+  height: 1px;
+  background-color: gray;
+  width: 40%;
+  margin-left: 220px;
+  position: relative;
+}
+span{
+  margin-left: 190px;
+  position: absolute;
+  margin-top: 20px;
+}
+#btn1{
+   width: 250px;
+  height: 35px;
+  background-color: #fff;
+  border: 0.4px solid black;
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+#bottom{
+   margin-top: 110px;
+   margin-left: -220px;
+   color: #707C8B;
+   position: relative;
+   font-size: 13px;
+   text-align: center;
+}
+#bottom-2{
+  margin-left: 200px;
+  color: #707C8B;
+  position: relative;
+  margin-top: -60px;
+  font-size: 13px;
+  text-align: center;
+}
+#pra{
+  margin-left: 170px;
+  color: gray;
+  margin-top: 20px;
+  font-size: 12px;
+}

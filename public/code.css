@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-color: #DEDFE3;
+}
+header{
+  height: 47px;
+  width: 450px;
+  background-color: #3B5998;
+}
+header h1{
+  color: #fff;
+  text-align: center;
+  font-family: verdana;
+  font-size: 25px;
+  padding: 8px;
+  
+}
+section .main{
+  height: 220px;
+  width: 440px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.main .nav{
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-top: -5px;
+  margin-left: 10px;
+  color: #565656;
+}
+.hr-1{
+  height: 0.5px;
+  width: 440px;
+  background-color: #A2A2A2;
+  margin-top: 10px;
+}
+#demo{
+  margin: 10px;
+  font-size: 15px;
+  font-family: Arial;
+  margin-left: 20px;
+}
+input{
+  width: 200px;
+  margin-left: 20px;
+  outline: black;
+  height: 28px;
+}
+input:hover{
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 30px;
+  padding-left: 5px;
+}
+.last{
+  height: 50px;
+  width: 440px; 
+  margin-top: 27px;
+  background-color: #F5F6F8;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-style: 13px;
+}
+.last p{
+  color: #375386;
+  margin-top: 15px;
+  margin-left: 180px;
+  position: absolute;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+button{
+  margin-top: 60px;
+  width: 440px;
+  height: 40px;
+  font-weight: bold;
+  
+  border-radius: 5px;
+  border: 0px solid black;
+  background-color: #5C72A2;
+  color: #fff;
+  position: absolute;
+  
+}
+.bottom{
+  width: 440px;
+  height: 100px;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: #505F87;
+  font-family: sans-serif;
+}
+.bt-1{
+  position: absolute;
+  margin-left: 180px;
+  margin-top: 10px;
+  line-height: 20px;
+  font-size: 13px;
+}
+.bt-2{
+  margin-left: 250px;
+  position: absolute;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.bt-1 p{
+  text-align: center;
+  margin-left: -150px;
+ 
+}
+.bt-2 p{
+  text-align: center;
+}
+.box{
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  margin-left: 30px;
+}
+.fa-regular{
+  font-size: 17px;
+  padding: 5px;
+}
+#log{
+  text-align: center;
+  color: gray;
+  margin-top: 70px;
+  font-size: 15px;
+  position: relative;
+}
